@@ -9,7 +9,6 @@ public class LoseScreen : UIScreen
 {
     [SerializeField] private LoseTransition _loseTransition;
     [SerializeField] private CinemachineSwitcher _cinemachineSwitcher;
-    [SerializeField] private RewAd _rewAd;
     [SerializeField] private GameObject _X2Element;
     [Header("Buttons")]
     [SerializeField] private Button _collect;
@@ -49,7 +48,6 @@ public class LoseScreen : UIScreen
 
         _rewardX2.onClick.AddListener(() =>
         {
-            _rewAd.ShowAd();
             _X2Element.SetActive(false);
         });
 
