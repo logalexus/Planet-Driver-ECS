@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 180453259052057691}
   - component: {fileID: 364388842552035798}
   - component: {fileID: 1505442134094563142}
+  - component: {fileID: 3616958003032479707}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Crush
@@ -94,6 +95,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37e7636260912c1499ecfd3a316600b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3616958003032479707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180453259052057692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e1ad782ebf949778a3e3a89f375d753, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedData:
+    Rigidbody: {fileID: 5470938544622782775}
 --- !u!1 &2912875461828771307
 GameObject:
   m_ObjectHideFlags: 0
