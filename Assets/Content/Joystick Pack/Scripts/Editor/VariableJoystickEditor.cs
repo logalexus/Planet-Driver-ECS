@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Content.Joystick_Pack.Scripts.Joysticks;
 using UnityEngine;
 
 using UnityEditor;

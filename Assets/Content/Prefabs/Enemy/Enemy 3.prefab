@@ -10,10 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4062674456669831186}
   - component: {fileID: 5470938544622782775}
-  - component: {fileID: 180453259052057691}
   - component: {fileID: 364388842552035798}
   - component: {fileID: 1505442134094563142}
   - component: {fileID: 3416557563624035477}
+  - component: {fileID: 7594981899155347575}
+  - component: {fileID: -8517161648572325635}
   m_Layer: 0
   m_Name: Enemy 3
   m_TagString: Crush
@@ -53,23 +54,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
---- !u!114 &180453259052057691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 180453259052057692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edbb77ccbaba47145a49b786b4a709f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _enemy: {fileID: 5470938544622782775}
-  _mask:
-    serializedVersion: 2
-    m_Bits: 64
-  _speed: 15
 --- !u!65 &364388842552035798
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -109,6 +93,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   serializedData:
     Rigidbody: {fileID: 5470938544622782775}
+--- !u!114 &7594981899155347575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180453259052057692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22ec48338eaf4e69a3a21682f7823936, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-8517161648572325635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180453259052057692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecd1197275c14124a04fc347d20d4f8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedData:
+    Speed: 15
+    RotationSpeed: 0
+    VerticalStrength: 0
 --- !u!1 &1720911335664501506
 GameObject:
   m_ObjectHideFlags: 0
